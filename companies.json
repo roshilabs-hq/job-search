@@ -362,6 +362,186 @@
     ]
   },
   {
+    "id": "elementor",
+    "name": "Elementor",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "Elementor",
+    "uid": "A3.00F",
+    "aliases": [
+      "elementor"
+    ]
+  },
+  {
+    "id": "kaltura",
+    "name": "Kaltura",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "kaltura",
+    "uid": "E2.00D",
+    "aliases": [
+      "kaltura",
+      "קלטורה"
+    ]
+  },
+  {
+    "id": "cellebrite",
+    "name": "Cellebrite",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "Cellebrite",
+    "uid": "C3.00F",
+    "aliases": [
+      "cellebrite",
+      "סלברייט"
+    ]
+  },
+  {
+    "id": "camtek",
+    "name": "Camtek",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "camtek",
+    "uid": "F4.00D",
+    "aliases": [
+      "camtek",
+      "קמטק"
+    ]
+  },
+  {
+    "id": "ceva",
+    "name": "CEVA",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "ceva",
+    "uid": "76.005",
+    "aliases": [
+      "ceva"
+    ]
+  },
+  {
+    "id": "cognyte",
+    "name": "Cognyte",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "cognyte",
+    "uid": "F2.009",
+    "aliases": [
+      "cognyte"
+    ]
+  },
+  {
+    "id": "solaredge",
+    "name": "SolarEdge",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "solaredge",
+    "uid": "71.00A",
+    "aliases": [
+      "solaredge",
+      "סולאראדג'"
+    ]
+  },
+  {
+    "id": "vastdata",
+    "name": "VAST Data",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "vastdata",
+    "uid": "43.001",
+    "aliases": [
+      "vast data"
+    ]
+  },
+  {
+    "id": "claroty",
+    "name": "Claroty",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "Claroty",
+    "uid": "F2.004",
+    "aliases": [
+      "claroty"
+    ]
+  },
+  {
+    "id": "pentera",
+    "name": "Pentera",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "pentera",
+    "uid": "C5.00D",
+    "aliases": [
+      "pentera"
+    ]
+  },
+  {
+    "id": "guesty",
+    "name": "Guesty",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "guesty",
+    "uid": "10.000",
+    "aliases": [
+      "guesty"
+    ]
+  },
+  {
+    "id": "lusha",
+    "name": "Lusha",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "lusha",
+    "uid": "73.00B",
+    "aliases": [
+      "lusha"
+    ]
+  },
+  {
+    "id": "quantummachines",
+    "name": "Quantum Machines",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "quantummachines",
+    "uid": "d6.000",
+    "aliases": [
+      "quantum machines"
+    ]
+  },
+  {
+    "id": "team8",
+    "name": "Team8",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "team8",
+    "uid": "61.003",
+    "aliases": [
+      "team8"
+    ]
+  },
+  {
+    "id": "port",
+    "name": "Port",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "port",
+    "uid": "59.004",
+    "aliases": [
+      "getport"
+    ]
+  },
+  {
+    "id": "skai",
+    "name": "Skai",
+    "sector": "hitech",
+    "platform": "comeet",
+    "slug": "skai",
+    "uid": "22.00A",
+    "aliases": [
+      "skai"
+    ]
+  },
+  {
     "id": "plus500",
     "name": "Plus500",
     "sector": "fintech",
@@ -371,6 +551,87 @@
     "aliases": [
       "plus500",
       "פלוס 500"
+    ]
+  },
+  {
+    "id": "rapyd",
+    "name": "Rapyd",
+    "sector": "fintech",
+    "platform": "comeet",
+    "slug": "rapyd",
+    "uid": "73.00E",
+    "aliases": [
+      "rapyd"
+    ]
+  },
+  {
+    "id": "etoro",
+    "name": "eToro",
+    "sector": "fintech",
+    "platform": "comeet",
+    "slug": "etoro",
+    "uid": "41.009",
+    "aliases": [
+      "etoro",
+      "איטורו"
+    ]
+  },
+  {
+    "id": "nayax",
+    "name": "Nayax",
+    "sector": "fintech",
+    "platform": "comeet",
+    "slug": "nayax",
+    "uid": "13.009",
+    "aliases": [
+      "nayax",
+      "נאייקס"
+    ]
+  },
+  {
+    "id": "papaya",
+    "name": "Papaya Global",
+    "sector": "fintech",
+    "platform": "comeet",
+    "slug": "papayaglobal",
+    "uid": "16.005",
+    "aliases": [
+      "papaya global"
+    ]
+  },
+  {
+    "id": "globale",
+    "name": "Global-e",
+    "sector": "fintech",
+    "platform": "comeet",
+    "slug": "global-e",
+    "uid": "62.002",
+    "aliases": [
+      "global-e"
+    ]
+  },
+  {
+    "id": "onezero",
+    "name": "One Zero",
+    "sector": "banks",
+    "platform": "comeet",
+    "slug": "onezerobank",
+    "uid": "36.00A",
+    "aliases": [
+      "one zero",
+      "וואן זירו"
+    ]
+  },
+  {
+    "id": "enlight",
+    "name": "Enlight",
+    "sector": "energy",
+    "platform": "comeet",
+    "slug": "enlightenergy",
+    "uid": "99.006",
+    "aliases": [
+      "enlight",
+      "אנלייט"
     ]
   },
   {
@@ -503,17 +764,6 @@
     "aliases": [
       "כלל",
       "clal"
-    ]
-  },
-  {
-    "id": "menora",
-    "name": "מנורה מבטחים",
-    "sector": "insurance",
-    "platform": "sites",
-    "site": "menora",
-    "aliases": [
-      "מנורה",
-      "menora"
     ]
   },
   {
@@ -702,6 +952,15 @@
     "place": "קריית ביאליק"
   },
   {
+    "id": "yokneam",
+    "name": "עיריית יקנעם",
+    "sector": "public",
+    "platform": "public",
+    "mode": "sharepoint",
+    "url": "https://www.yoqneam.org.il/Info/Pages/jobs.aspx",
+    "place": "יקנעם"
+  },
+  {
     "id": "tiratcarmel",
     "name": "עיריית טירת כרמל",
     "sector": "public",
@@ -720,5 +979,44 @@
     "url": "https://www.kiryat-motzkin.muni.il/wanted/",
     "link": "wanted/\\?id=\\d+",
     "place": "קריית מוצקין"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "sector": "hitech",
+    "platform": "eightfold",
+    "site": "https://apply.careers.microsoft.com",
+    "domain": "microsoft.com",
+    "location": "Israel",
+    "aliases": [
+      "microsoft",
+      "מיקרוסופט"
+    ]
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "sector": "hitech",
+    "platform": "eightfold",
+    "site": "https://careers.qualcomm.com",
+    "domain": "qualcomm.com",
+    "location": "Israel",
+    "aliases": [
+      "qualcomm",
+      "קוואלקום"
+    ]
+  },
+  {
+    "id": "amdocs",
+    "name": "Amdocs",
+    "sector": "hitech",
+    "platform": "eightfold",
+    "site": "https://jobs.amdocs.com",
+    "domain": "amdocs.com",
+    "location": "Israel",
+    "aliases": [
+      "amdocs",
+      "אמדוקס"
+    ]
   }
 ]

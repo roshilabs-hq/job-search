@@ -5,7 +5,9 @@
   "description": "סוכן חיפוש עבודה אישי, ערכה של רושינוביץ",
   "type": "module",
   "private": true,
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "node job-agent.mjs",
     "check": "node scripts/check-config.mjs",

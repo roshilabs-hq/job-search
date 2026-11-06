@@ -1315,5 +1315,57 @@
   "url": "https://www.kiryat-ata.org.il/wp-json/geodir/v2/auctions",
   "category": 123,
   "place": "קריית אתא"
+ },
+ {
+  "id": "microsoft",
+  "name": "Microsoft",
+  "sector": "hitech",
+  "platform": "eightfold",
+  "site": "https://apply.careers.microsoft.com",
+  "domain": "microsoft.com",
+  "location": "Israel",
+  "aliases": [
+   "microsoft",
+   "מיקרוסופט"
+  ]
+ },
+ {
+  "id": "qualcomm",
+  "name": "Qualcomm",
+  "sector": "hitech",
+  "platform": "eightfold",
+  "site": "https://careers.qualcomm.com",
+  "domain": "qualcomm.com",
+  "location": "Israel",
+  "aliases": [
+   "qualcomm",
+   "קוואלקום"
+  ]
+ },
+ {
+  "id": "amdocs",
+  "name": "Amdocs",
+  "sector": "hitech",
+  "platform": "eightfold",
+  "site": "https://jobs.amdocs.com",
+  "domain": "amdocs.com",
+  "location": "Israel",
+  "aliases": [
+   "amdocs",
+   "אמדוקס"
+  ]
+ },
+ {
+  "id": "teva",
+  "name": "Teva",
+  "sector": "pharma",
+  "platform": "eightfold",
+  "site": "https://careers.teva",
+  "domain": "tevapharm.com",
+  "location": "Israel",
+  "aliases": [
+   "teva",
+   "טבע"
+  ]
  }
 ]

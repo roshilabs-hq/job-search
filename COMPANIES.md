@@ -4,23 +4,23 @@
 
 הקובץ הזה נוצר אוטומטית מתוך `companies.json`. בכל תחום שבוחרים, כל החברות שבו נבדקות.
 
-נכון ל-6.11.2026: 67 חברות.
+נכון ל-6.11.2026: 93 חברות.
 
-## בנקים (4)
+## בנקים (5)
 
-בנק הפועלים · בנק לאומי · הבנק הבינלאומי · מזרחי טפחות
+בנק הפועלים · בנק לאומי · הבנק הבינלאומי · מזרחי טפחות · One Zero
 
-## ביטוח ובתי השקעות (5)
+## ביטוח ובתי השקעות (4)
 
-אלטשולר שחם · הורייזן בית השקעות · הראל · כלל · מנורה מבטחים
+אלטשולר שחם · הורייזן בית השקעות · הראל · כלל
 
-## כרטיסי אשראי ופינטק (11)
+## כרטיסי אשראי ופינטק (16)
 
-ישראכרט · מקס · Forter · Lendbuzz · Next Insurance · Pagaya · Payoneer · PayPal · Plus500 · Riskified · Tipalti
+ישראכרט · מקס · eToro · Forter · Global-e · Lendbuzz · Nayax · Next Insurance · Pagaya · Papaya Global · Payoneer · PayPal · Plus500 · Rapyd · Riskified · Tipalti
 
-## הייטק (27)
+## הייטק (46)
 
-AppsFlyer · Axonius · Cadence · Check Point · Cloudinary · GAV Systems · Gong · Google · Intel · Island · JFrog · KLA · Marvell · Matrix · Mobileye · Moon Active · NVIDIA · Optimove · Salesforce · SentinelOne · Similarweb · Taboola · Tower Semiconductor · Via · WalkMe · Wix · Wiz
+Amdocs · AppsFlyer · Axonius · Cadence · Camtek · Cellebrite · CEVA · Check Point · Claroty · Cloudinary · Cognyte · Elementor · GAV Systems · Gong · Google · Guesty · Intel · Island · JFrog · Kaltura · KLA · Lusha · Marvell · Matrix · Microsoft · Mobileye · Moon Active · NVIDIA · Optimove · Pentera · Port · Qualcomm · Quantum Machines · Salesforce · SentinelOne · Similarweb · Skai · SolarEdge · Taboola · Team8 · Tower Semiconductor · VAST Data · Via · WalkMe · Wix · Wiz
 
 ## ביטחון (1)
 
@@ -46,17 +46,17 @@ Medtronic · Philips
 
 פלאפון
 
-## אנרגיה ותשתיות (2)
+## אנרגיה ותשתיות (3)
 
-חברת החשמל · מי כרמל
+חברת החשמל · מי כרמל · Enlight
 
 ## תחבורה ולוגיסטיקה (1)
 
 צים
 
-## מגזר ציבורי (7)
+## מגזר ציבורי (8)
 
-נציבות שירות המדינה · עיריית חיפה · עיריית טירת כרמל · עיריית נשר · עיריית נתניה · עיריית קריית ביאליק · עיריית קריית מוצקין
+נציבות שירות המדינה · עיריית חיפה · עיריית טירת כרמל · עיריית יקנעם · עיריית נשר · עיריית נתניה · עיריית קריית ביאליק · עיריית קריית מוצקין
 
 ## חינוך ועמותות (1)
 
