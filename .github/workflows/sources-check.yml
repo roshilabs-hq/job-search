@@ -1,0 +1,31 @@
+name: sources-check
+# Weekly: every company in companies.json is checked. A source that stopped answering opens (or updates)
+# one issue labeled source-broken, so the maintainer hears about it before users do.
+# Users' computers never report anything: this check is the only alarm.
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: verify
+        run: node scripts/verify-companies.mjs > verify.log 2>&1 || echo "failed=1" >> "$GITHUB_OUTPUT"
+      - if: steps.verify.outputs.failed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create source-broken --color B60205 --force >/dev/null
+          { echo "הבדיקה השבועית מצאה מקורות שלא ענו או בלי משרות בישראל:"; echo; echo '```'; grep FAIL verify.log; echo '```'; } > body.md
+          num=$(gh issue list --label source-broken --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then gh issue comment "$num" --body-file body.md; else gh issue create --title "מקורות שנשברו" --label source-broken --body-file body.md; fi

@@ -11,3 +11,4 @@ data/
 reports/
 logs/
 node_modules/
+claude-app/*.zip
