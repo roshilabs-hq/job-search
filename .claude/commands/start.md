@@ -16,7 +16,7 @@
 ---
 
 ## שלב 0: בודקים שהכול מותקן (בלי לשאול)
-1. מריצים `npm ci` ואחריו `npm run check`. בשלב הזה רלוונטיות רק ארבע השורות הראשונות: Node.js, Git, Claude Code ו-Edge.
+1. מריצים `npm ci` ואחריו `npm run check -- --tools`. היא בודקת רק את הכלים: Node.js, Git, Claude Code ו-Edge. כל השאר נבנה בהמשך.
 2. אם Node.js חסר: מסבירים במשפט ("Node.js הוא המנוע שמריץ את הסוכן"), ומבקשים אישור להריץ `winget install OpenJS.NodeJS.LTS`. אחרי ההתקנה צריך לפתוח את Claude Code מחדש.
 3. כותבים למשתמש בשלוש שורות מה עומד לקרות:
    - ריאיון קצר, כדי שהסוכן יכיר אותך (כ-15 דקות).
@@ -75,7 +75,7 @@
      - באנגלית: engineer, developer, architect, devops, sre, firmware, asic, rtl, silicon, algorithm, data scientist, researcher, technician, software, hardware, backend, frontend, full stack, qa, intern, student
      - בעברית: מהנדס, מפתח, פיתוח תוכנה, בודק, טכנאי, אלגוריתמ, ארכיטקט, סטודנט
    - **מי שמחפש תפקיד טכני:** שאל מה לא רלוונטי לו.
-4. **תחומים:** בחר מראש את התחומים שמתאימים לפי הריאיון, והצג את כולם ברשימה ממוספרת עם מספר החברות בכל תחום (סופרים לפי `sector` ב-`companies.json`). סמן ✅ ליד אלה שבחרת. "אלה התחומים שנראים לי מתאימים. רוצה להוסיף או להוריד? כתוב את המספרים."
+4. **תחומים:** בחר מראש את התחומים שמתאימים לפי הריאיון, והצג ברשימה ממוספרת רק תחומים שיש בהם לפחות חברה אחת, עם מספר החברות בכל תחום (סופרים לפי `sector` ב-`companies.json`). ליד תחום עם פחות מ-3 חברות כתוב בגלוי "(כרגע רק X)", כדי שלא יצפה ליותר. סמן ✅ ליד אלה שבחרת. "אלה התחומים שנראים לי מתאימים. רוצה להוסיף או להוריד? כתוב את המספרים."
    - כל החברות בתחום שנבחר נכנסות.
    - הרשימה המלאה של החברות נמצאת ב-`COMPANIES.md`.
    - נכתב ל-`sectors`, עם המפתחות: banks, insurance, fintech, hitech, defense, industry, pharma, health, retail, telecom, energy, transport, realestate, public, education.

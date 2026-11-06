@@ -1,7 +1,8 @@
 // Checks that everything the agent needs is in place. Prints ✅/❌ per item, never a secret's value.
 //   npm run check            all checks
+//   npm run check -- --tools only the tools (Node, Git, Claude Code, Edge)
 //   npm run check -- --mail  also logs in to Gmail with the app password (sends nothing)
-import { execFileSync } from 'node:child_process';
+import { execSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, readJson } from '../lib/util.mjs';
@@ -11,7 +12,7 @@ import { CV_FILE } from '../lib/cv.mjs';
 const ENV_FILE = path.join(ROOT, '.env');
 if (fs.existsSync(ENV_FILE)) process.loadEnvFile(ENV_FILE);
 
-const can = (cmd, args) => { try { execFileSync(cmd, args, { stdio: 'ignore', shell: true, timeout: 30000 }); return true; } catch { return false; } };
+const can = cmd => { try { execSync(`${cmd} --version`, { stdio: 'ignore', timeout: 30000 }); return true; } catch { return false; } };
 const edge = ['ProgramFiles(x86)', 'ProgramFiles'].map(v => process.env[v] && path.join(process.env[v], 'Microsoft/Edge/Application/msedge.exe'))
   .some(f => f && fs.existsSync(f));
 
@@ -21,8 +22,8 @@ const area = settings?.area || {};
 
 export const checks = [
   ['node', 'Node.js 20 ומעלה', Number(process.versions.node.split('.')[0]) >= 20, 'מתקינים Node.js LTS: winget install OpenJS.NodeJS.LTS'],
-  ['git', 'Git מותקן', can('git', ['--version']), 'Git מגיע עם Claude Code בווינדוס. אם חסר: winget install Git.Git'],
-  ['claude', 'Claude Code זמין לסוכן', can('claude', ['--version']), 'הסוכן נותן ציון דרך Claude Code. פותחים טרמינל חדש ובודקים ש-claude --version עובד'],
+  ['git', 'Git מותקן', can('git'), 'Git מגיע עם Claude Code בווינדוס. אם חסר: winget install Git.Git'],
+  ['claude', 'Claude Code זמין לסוכן', can('claude'), 'הסוכן נותן ציון דרך Claude Code. פותחים טרמינל חדש ובודקים ש-claude --version עובד'],
   ['edge', 'Microsoft Edge (בשביל ה-PDF)', edge, 'Edge מותקן בכל ווינדוס. אם הוסר, מתקינים אותו מחדש מ-microsoft.com/edge'],
   ['profile', 'פרופיל (profile.md)', fs.existsSync(path.join(ROOT, 'profile.md')), 'עוברים את הריאיון: /start'],
   ['cv', 'קורות חיים (cv/base-cv.json)', Boolean(cv?.name && Array.isArray(cv?.experience)), 'עוברים את הריאיון: /start'],
@@ -35,7 +36,8 @@ export const checks = [
 
 async function main() {
   let ok = true;
-  for (const [, label, pass, fix, optional] of checks) {
+  const tools = process.argv.includes('--tools');   // step 0 of /start: before the interview, only the tools matter
+  for (const [, label, pass, fix, optional] of tools ? checks.slice(0, 4) : checks) {
     console.log(`${pass ? '✅' : optional ? '⚪' : '❌'} ${label}${pass ? '' : `  ←  ${fix}`}`);
     if (!pass && !optional) ok = false;
   }

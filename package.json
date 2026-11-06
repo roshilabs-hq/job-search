@@ -1,7 +1,7 @@
 {
   "name": "job-search",
   "repository": "https://github.com/roshilabs-hq/job-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "סוכן חיפוש עבודה אישי, ערכה של רושינוביץ",
   "type": "module",
   "private": true,

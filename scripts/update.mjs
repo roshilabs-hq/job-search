@@ -4,7 +4,7 @@
 //    push code to users without that key. The public key is pinned below.
 //  - The user's files (profile, CV, settings, data, .env) are git-ignored, so an update never touches them.
 //  - Conflict with a change the user made, or failing tests: nothing changes, and the email says what to do.
-import { execFileSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -52,11 +52,11 @@ export async function selfUpdate() {
     return { notice: `יש גרסה חדשה של הסוכן (${latest}), והיא מתנגשת בשינוי שעשית. לא שיניתי כלום. ${ASK}` };
   }
   try {
-    execFileSync('npm', ['ci', '--silent'], { cwd: ROOT, stdio: 'ignore', shell: true });
-    execFileSync('npm', ['test', '--silent'], { cwd: ROOT, stdio: 'ignore', shell: true });
+    execSync('npm ci --silent', { cwd: ROOT, stdio: 'ignore' });
+    execSync('npm test --silent', { cwd: ROOT, stdio: 'ignore' });
   } catch {
     git('reset', '--hard', before);
-    try { execFileSync('npm', ['ci', '--silent'], { cwd: ROOT, stdio: 'ignore', shell: true }); } catch {}
+    try { execSync('npm ci --silent', { cwd: ROOT, stdio: 'ignore' }); } catch {}
     return { notice: `יש גרסה חדשה של הסוכן (${latest}), אבל הבדיקות שלה נכשלו אצלך, אז נשארתי בגרסה הקודמת. ${ASK}` };
   }
   log(`updated ${current} -> ${latest}`);

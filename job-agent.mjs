@@ -3,7 +3,7 @@
 // subscription), and writes an HTML report + an email on every run.
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, DATA_DIR, log, readJson, writeJson, askClaude, parseJsonArray } from './lib/util.mjs';
+import { ROOT, DATA_DIR, log, readJson, writeJson, askClaude, parseJsonArray, fairOrder } from './lib/util.mjs';
 import { sendRunEmail, isShown, mailConfigured } from './lib/mail.mjs';
 import { loadSettings, loadCompanies } from './lib/config.mjs';
 import { areaMatcher, titleExcluder } from './lib/area.mjs';
@@ -160,7 +160,7 @@ async function main() {
   const persistentFailures = companies.filter(c => health[c.id] >= FAIL_ALERT_RUNS).map(c => `${c.name} (${health[c.id]} ריצות)`);
 
   // Only this run's share is scored; the rest stay unseen and are scored in the next runs.
-  const toScore = candidates.slice(0, SCORE_PER_RUN);
+  const toScore = fairOrder(candidates).slice(0, SCORE_PER_RUN);
   // Descriptions are fetched only for jobs about to be scored (some sources need a request per job).
   const byCompany = new Map();
   for (const j of toScore) byCompany.set(j._company, [...(byCompany.get(j._company) || []), j]);

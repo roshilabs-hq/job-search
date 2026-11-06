@@ -13,7 +13,8 @@ const WEEKLY = 'Job Search Kit - Weekly';
 const DIR = path.join(ROOT, 'scripts', 'windows');
 
 const ps = script => execFileSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-EncodedCommand',
-  Buffer.from(script, 'utf16le').toString('base64')], { encoding: 'utf8' }).trim();
+  Buffer.from(`$ProgressPreference = 'SilentlyContinue'
+${script}`, 'utf16le').toString('base64')], { encoding: 'utf8' }).trim();
 const q = s => `'${String(s).replace(/'/g, "''")}'`;
 
 export function scheduleOn(times = ['10:00', '18:00']) {
