@@ -1,0 +1,724 @@
+[
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "sector": "hitech",
+    "platform": "workday",
+    "host": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "site": "NVIDIAExternalCareerSite",
+    "aliases": [
+      "nvidia",
+      "אנבידיה",
+      "מלאנוקס",
+      "mellanox"
+    ]
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "sector": "hitech",
+    "platform": "workday",
+    "host": "intel.wd1.myworkdayjobs.com",
+    "tenant": "intel",
+    "site": "External",
+    "aliases": [
+      "intel",
+      "אינטל"
+    ]
+  },
+  {
+    "id": "kla",
+    "name": "KLA",
+    "sector": "hitech",
+    "platform": "workday",
+    "host": "kla.wd1.myworkdayjobs.com",
+    "tenant": "kla",
+    "site": "Search",
+    "aliases": [
+      "kla"
+    ]
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "sector": "hitech",
+    "platform": "workday",
+    "host": "salesforce.wd12.myworkdayjobs.com",
+    "tenant": "salesforce",
+    "site": "External_Career_Site",
+    "aliases": [
+      "salesforce"
+    ]
+  },
+  {
+    "id": "marvell",
+    "name": "Marvell",
+    "sector": "hitech",
+    "platform": "workday",
+    "host": "marvell.wd1.myworkdayjobs.com",
+    "tenant": "marvell",
+    "site": "MarvellCareers",
+    "aliases": [
+      "marvell",
+      "מארוול"
+    ]
+  },
+  {
+    "id": "cadence",
+    "name": "Cadence",
+    "sector": "hitech",
+    "platform": "workday",
+    "host": "cadence.wd1.myworkdayjobs.com",
+    "tenant": "cadence",
+    "site": "External_Careers",
+    "aliases": [
+      "cadence"
+    ]
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "sector": "fintech",
+    "platform": "workday",
+    "host": "paypal.wd1.myworkdayjobs.com",
+    "tenant": "paypal",
+    "site": "jobs",
+    "aliases": [
+      "paypal",
+      "פייפאל"
+    ]
+  },
+  {
+    "id": "philips",
+    "name": "Philips",
+    "sector": "pharma",
+    "platform": "workday",
+    "host": "philips.wd3.myworkdayjobs.com",
+    "tenant": "philips",
+    "site": "jobs-and-careers",
+    "aliases": [
+      "philips",
+      "פיליפס"
+    ]
+  },
+  {
+    "id": "medtronic",
+    "name": "Medtronic",
+    "sector": "pharma",
+    "platform": "workday",
+    "host": "medtronic.wd1.myworkdayjobs.com",
+    "tenant": "medtronic",
+    "site": "MedtronicCareers",
+    "aliases": [
+      "medtronic",
+      "מדטרוניק"
+    ]
+  },
+  {
+    "id": "similarweb",
+    "name": "Similarweb",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "similarweb",
+    "aliases": [
+      "similarweb"
+    ]
+  },
+  {
+    "id": "jfrog",
+    "name": "JFrog",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "jfrog",
+    "aliases": [
+      "jfrog"
+    ]
+  },
+  {
+    "id": "sentinelone",
+    "name": "SentinelOne",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "sentinellabs",
+    "aliases": [
+      "sentinelone"
+    ]
+  },
+  {
+    "id": "taboola",
+    "name": "Taboola",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "taboola",
+    "aliases": [
+      "taboola",
+      "טאבולה"
+    ]
+  },
+  {
+    "id": "gong",
+    "name": "Gong",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "gongio",
+    "aliases": [
+      "gong"
+    ]
+  },
+  {
+    "id": "appsflyer",
+    "name": "AppsFlyer",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "appsflyer",
+    "aliases": [
+      "appsflyer"
+    ]
+  },
+  {
+    "id": "wiz",
+    "name": "Wiz",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "wizinc",
+    "aliases": [
+      "wiz"
+    ]
+  },
+  {
+    "id": "axonius",
+    "name": "Axonius",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "axonius",
+    "aliases": [
+      "axonius"
+    ]
+  },
+  {
+    "id": "island",
+    "name": "Island",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "island",
+    "aliases": [
+      "island.io"
+    ]
+  },
+  {
+    "id": "via",
+    "name": "Via",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "via",
+    "aliases": [
+      "via transportation"
+    ]
+  },
+  {
+    "id": "optimove",
+    "name": "Optimove",
+    "sector": "hitech",
+    "platform": "greenhouse",
+    "board": "optimove",
+    "aliases": [
+      "optimove"
+    ]
+  },
+  {
+    "id": "payoneer",
+    "name": "Payoneer",
+    "sector": "fintech",
+    "platform": "greenhouse",
+    "board": "payoneer",
+    "aliases": [
+      "payoneer",
+      "פאיוניר"
+    ]
+  },
+  {
+    "id": "tipalti",
+    "name": "Tipalti",
+    "sector": "fintech",
+    "platform": "greenhouse",
+    "board": "tipaltisolutions",
+    "aliases": [
+      "tipalti"
+    ]
+  },
+  {
+    "id": "pagaya",
+    "name": "Pagaya",
+    "sector": "fintech",
+    "platform": "greenhouse",
+    "board": "pagayais",
+    "aliases": [
+      "pagaya"
+    ]
+  },
+  {
+    "id": "riskified",
+    "name": "Riskified",
+    "sector": "fintech",
+    "platform": "greenhouse",
+    "board": "riskified",
+    "aliases": [
+      "riskified"
+    ]
+  },
+  {
+    "id": "forter",
+    "name": "Forter",
+    "sector": "fintech",
+    "platform": "greenhouse",
+    "board": "forter",
+    "aliases": [
+      "forter"
+    ]
+  },
+  {
+    "id": "nextinsurance",
+    "name": "Next Insurance",
+    "sector": "fintech",
+    "platform": "greenhouse",
+    "board": "nextinsurance66",
+    "aliases": [
+      "next insurance"
+    ]
+  },
+  {
+    "id": "mobileye",
+    "name": "Mobileye",
+    "sector": "hitech",
+    "platform": "lever",
+    "board": "mobileye",
+    "eu": true,
+    "aliases": [
+      "mobileye",
+      "מובילאיי"
+    ]
+  },
+  {
+    "id": "walkme",
+    "name": "WalkMe",
+    "sector": "hitech",
+    "platform": "lever",
+    "board": "walkme",
+    "aliases": [
+      "walkme"
+    ]
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary",
+    "sector": "hitech",
+    "platform": "lever",
+    "board": "cloudinary",
+    "aliases": [
+      "cloudinary"
+    ]
+  },
+  {
+    "id": "lendbuzz",
+    "name": "Lendbuzz",
+    "sector": "fintech",
+    "platform": "lever",
+    "board": "lendbuzz",
+    "aliases": [
+      "lendbuzz"
+    ]
+  },
+  {
+    "id": "moonactive",
+    "name": "Moon Active",
+    "sector": "hitech",
+    "platform": "ashby",
+    "board": "moonactive",
+    "aliases": [
+      "moon active"
+    ]
+  },
+  {
+    "id": "checkpoint",
+    "name": "Check Point",
+    "sector": "hitech",
+    "platform": "smartrecruiters",
+    "board": "CheckPointSoftwareTechnologies2",
+    "aliases": [
+      "check point",
+      "צ'ק פוינט"
+    ]
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "sector": "hitech",
+    "platform": "smartrecruiters",
+    "board": "Wix2",
+    "aliases": [
+      "wix",
+      "וויקס"
+    ]
+  },
+  {
+    "id": "plus500",
+    "name": "Plus500",
+    "sector": "fintech",
+    "platform": "comeet",
+    "uid": "A1.00F",
+    "token": "1AF6BCA1AF27A1A35E86B6BC50D0",
+    "aliases": [
+      "plus500",
+      "פלוס 500"
+    ]
+  },
+  {
+    "id": "zim",
+    "name": "צים",
+    "sector": "transport",
+    "platform": "comeet",
+    "uid": "72.008",
+    "token": "2789E01638768C58768ED013C011480",
+    "aliases": [
+      "צים",
+      "zim"
+    ]
+  },
+  {
+    "id": "altshuler",
+    "name": "אלטשולר שחם",
+    "sector": "insurance",
+    "platform": "sites",
+    "site": "adamtotal",
+    "token": "1EB6B34D-8783-4AD3-8SS80-7FA0CFA5DFC8",
+    "aliases": [
+      "אלטשולר"
+    ]
+  },
+  {
+    "id": "pelephone",
+    "name": "פלאפון",
+    "sector": "telecom",
+    "platform": "sites",
+    "site": "adamtotal",
+    "token": "OPY78QbFG53N63Em2UKTVQ4OPb1hiX9SxJtoMHssWX",
+    "aliases": [
+      "פלאפון",
+      "pelephone"
+    ]
+  },
+  {
+    "id": "tempo",
+    "name": "טמפו",
+    "sector": "retail",
+    "platform": "sites",
+    "site": "adamtotal",
+    "token": "5fiBEcF763Em2KLOPNQ4OPb1hiX9SxJtoMDssWS",
+    "aliases": [
+      "טמפו",
+      "tempo"
+    ]
+  },
+  {
+    "id": "elbit",
+    "name": "Elbit Systems",
+    "sector": "defense",
+    "platform": "elbit",
+    "url": "https://elbitsystemscareer.com/cron/jobs.json",
+    "aliases": [
+      "elbit",
+      "אלביט"
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "sector": "hitech",
+    "platform": "google",
+    "location": "Israel",
+    "aliases": [
+      "google",
+      "גוגל"
+    ]
+  },
+  {
+    "id": "leumi",
+    "name": "בנק לאומי",
+    "sector": "banks",
+    "platform": "leumi",
+    "aliases": [
+      "לאומי",
+      "leumi"
+    ]
+  },
+  {
+    "id": "hapoalim",
+    "name": "בנק הפועלים",
+    "sector": "banks",
+    "platform": "hapoalim",
+    "aliases": [
+      "הפועלים",
+      "hapoalim"
+    ]
+  },
+  {
+    "id": "mizrahi",
+    "name": "מזרחי טפחות",
+    "sector": "banks",
+    "platform": "mizrahi",
+    "aliases": [
+      "מזרחי",
+      "mizrahi"
+    ]
+  },
+  {
+    "id": "fibi",
+    "name": "הבנק הבינלאומי",
+    "sector": "banks",
+    "platform": "fibi",
+    "aliases": [
+      "הבינלאומי",
+      "fibi",
+      "מת\"ף"
+    ]
+  },
+  {
+    "id": "harel",
+    "name": "הראל",
+    "sector": "insurance",
+    "platform": "sites",
+    "site": "harel",
+    "aliases": [
+      "הראל",
+      "harel"
+    ]
+  },
+  {
+    "id": "clal",
+    "name": "כלל",
+    "sector": "insurance",
+    "platform": "sites",
+    "site": "clal",
+    "aliases": [
+      "כלל",
+      "clal"
+    ]
+  },
+  {
+    "id": "menora",
+    "name": "מנורה מבטחים",
+    "sector": "insurance",
+    "platform": "sites",
+    "site": "menora",
+    "aliases": [
+      "מנורה",
+      "menora"
+    ]
+  },
+  {
+    "id": "isracard",
+    "name": "ישראכרט",
+    "sector": "fintech",
+    "platform": "sites",
+    "site": "isracard",
+    "aliases": [
+      "ישראכרט",
+      "isracard"
+    ]
+  },
+  {
+    "id": "max",
+    "name": "מקס",
+    "sector": "fintech",
+    "platform": "sites",
+    "site": "max",
+    "aliases": [
+      "מקס",
+      "max it"
+    ]
+  },
+  {
+    "id": "iec",
+    "name": "חברת החשמל",
+    "sector": "energy",
+    "platform": "sites",
+    "site": "iec",
+    "aliases": [
+      "חברת החשמל",
+      "חח\"י"
+    ]
+  },
+  {
+    "id": "clalit",
+    "name": "כללית",
+    "sector": "health",
+    "platform": "sites",
+    "site": "clalit",
+    "aliases": [
+      "כללית",
+      "clalit"
+    ]
+  },
+  {
+    "id": "maccabi",
+    "name": "מכבי",
+    "sector": "health",
+    "platform": "sites",
+    "site": "maccabi",
+    "aliases": [
+      "מכבי שירותי בריאות",
+      "מכבי"
+    ]
+  },
+  {
+    "id": "meuhedet",
+    "name": "מאוחדת",
+    "sector": "health",
+    "platform": "sites",
+    "site": "meuhedet",
+    "aliases": [
+      "מאוחדת"
+    ]
+  },
+  {
+    "id": "tower",
+    "name": "Tower Semiconductor",
+    "sector": "hitech",
+    "platform": "sites",
+    "site": "tower",
+    "aliases": [
+      "טאואר",
+      "tower"
+    ]
+  },
+  {
+    "id": "icl",
+    "name": "ICL",
+    "sector": "industry",
+    "platform": "sites",
+    "site": "icl",
+    "aliases": [
+      "icl",
+      "כיל"
+    ]
+  },
+  {
+    "id": "matrix",
+    "name": "Matrix",
+    "sector": "hitech",
+    "platform": "sites",
+    "site": "matrix",
+    "aliases": [
+      "matrix",
+      "מטריקס"
+    ]
+  },
+  {
+    "id": "gav",
+    "name": "GAV Systems",
+    "sector": "hitech",
+    "platform": "sites",
+    "site": "gav",
+    "aliases": [
+      "gav",
+      "גב מערכות"
+    ]
+  },
+  {
+    "id": "haifauni",
+    "name": "אוניברסיטת חיפה",
+    "sector": "education",
+    "platform": "sites",
+    "site": "haifauni",
+    "aliases": [
+      "אוניברסיטת חיפה"
+    ]
+  },
+  {
+    "id": "haifamuni",
+    "name": "עיריית חיפה",
+    "sector": "public",
+    "platform": "sites",
+    "site": "haifamuni",
+    "aliases": [
+      "עיריית חיפה"
+    ]
+  },
+  {
+    "id": "horizon",
+    "name": "הורייזן בית השקעות",
+    "sector": "insurance",
+    "platform": "pagewatch",
+    "url": "https://horizon-cm.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94-%d7%91%d7%94%d7%95%d7%a8%d7%99%d7%99%d7%96%d7%9f/",
+    "start": "קריירה בהורייזן",
+    "end": "טלפון",
+    "location": "הורייזן"
+  },
+  {
+    "id": "civilservice",
+    "name": "נציבות שירות המדינה",
+    "sector": "public",
+    "platform": "public",
+    "mode": "civilservice"
+  },
+  {
+    "id": "meicarmel",
+    "name": "מי כרמל",
+    "sector": "energy",
+    "platform": "public",
+    "mode": "wpposts",
+    "url": "https://www.mei-carmel.co.il/wp-json/wp/v2/posts?categories=18",
+    "place": "חיפה",
+    "aliases": [
+      "מי כרמל"
+    ]
+  },
+  {
+    "id": "netanya",
+    "name": "עיריית נתניה",
+    "sector": "public",
+    "platform": "public",
+    "mode": "malam",
+    "customer": "Netanya",
+    "place": "נתניה"
+  },
+  {
+    "id": "nesher",
+    "name": "עיריית נשר",
+    "sector": "public",
+    "platform": "public",
+    "mode": "malam",
+    "customer": "Nesher",
+    "place": "נשר"
+  },
+  {
+    "id": "bialik",
+    "name": "עיריית קריית ביאליק",
+    "sector": "public",
+    "platform": "public",
+    "mode": "malam",
+    "customer": "qbialik",
+    "place": "קריית ביאליק"
+  },
+  {
+    "id": "tiratcarmel",
+    "name": "עיריית טירת כרמל",
+    "sector": "public",
+    "platform": "public",
+    "mode": "links",
+    "url": "https://www.tirat-carmel.muni.il/Info/Pages/jobs.aspx",
+    "link": "Lists/List3/CustomDispForm\\.aspx\\?ID=\\d+",
+    "place": "טירת כרמל"
+  },
+  {
+    "id": "motzkin",
+    "name": "עיריית קריית מוצקין",
+    "sector": "public",
+    "platform": "public",
+    "mode": "links",
+    "url": "https://www.kiryat-motzkin.muni.il/wanted/",
+    "link": "wanted/\\?id=\\d+",
+    "place": "קריית מוצקין"
+  }
+]

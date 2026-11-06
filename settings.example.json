@@ -1,0 +1,9 @@
+{
+  "sectors": ["hitech", "fintech", "banks"],
+  "area": { "anywhere": false, "places": ["תל אביב", "Tel Aviv", "רמת גן", "Ramat Gan", "הרצליה", "Herzliya", "מרכז"], "remote": true },
+  "excludeTitles": ["developer", "engineer", "מפתח", "מהנדס", "intern", "סטודנט"],
+  "desiredSalary": "22-26 אלף ש\"ח ברוטו לחודש",
+  "minScore": 5,
+  "alljobs": false,
+  "runTimes": ["10:00", "18:00"]
+}

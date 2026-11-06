@@ -1,0 +1,19 @@
+{
+  "name": "job-search",
+  "repository": "https://github.com/roshilabs-hq/job-search",
+  "version": "0.1.0",
+  "description": "סוכן חיפוש עבודה אישי, ערכה של רושינוביץ",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node job-agent.mjs",
+    "check": "node scripts/check-config.mjs",
+    "verify": "node scripts/verify-companies.mjs",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "dependencies": {
+    "node-html-parser": "^9.0.4",
+    "nodemailer": "^10.1.0"
+  }
+}

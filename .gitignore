@@ -1,0 +1,13 @@
+# The user's own files: never in git, never touched by updates
+.env
+.env.*
+!.env.example
+profile.md
+settings.json
+my-companies.json
+cv/*
+!cv/base-cv.example.json
+data/
+reports/
+logs/
+node_modules/
